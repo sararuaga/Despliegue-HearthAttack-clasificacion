@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 
 #Cargamos el modelo
 import pickle
-filename = 'modelo-ensamble-class.pkl'
+filename = 'modelo-ensamble-clas.pkl'
 modelo, variables, labelencoder, min_max_scaler = pickle.load(open(filename, 'rb'))
 
 #Cargamos los datos futuros
