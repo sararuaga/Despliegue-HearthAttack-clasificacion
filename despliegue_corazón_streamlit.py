@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 #Cargamos el modelo
 import pickle
 filename = 'modelo-ensamble-class.pkl'
-modelo, labelencoder, variables, min_max_scaler = pickle.load(open(filename, 'rb'))
+modelo, variables, labelencoder, min_max_scaler = pickle.load(open(filename, 'rb'))
 
 #Cargamos los datos futuros
 #data = pd.read_excel("predecir mortalidad_ataques_cardiacos.xlsx")
